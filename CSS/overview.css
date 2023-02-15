@@ -6,7 +6,6 @@
 body {
     margin: 0px;
     background:url(../IMAGE/back.jpg);
-    
     /* linear-gradient(rgba(3, 3, 3, 0.619),rgba(112, 104, 26, 0.75)), */
     background-size: cover;
     background-position: center;
@@ -28,7 +27,6 @@ body {
     align-items: center;
     justify-content: space-between;
 }
-
 
 .logo {
     width: 120px;
@@ -65,6 +63,11 @@ body {
 .navbar ul li:hover:after {
     width: 100%;
 }
+@media screen and (max-width: 800px) {
+.navbar{
+    display: none;
+}    
+}
 
 .content {
     width: 100%;
@@ -86,12 +89,12 @@ body {
     line-height: 25px;
     color: rgba(255, 255, 0, 0.769);
 }
-@media (min-width:700px) and (max-width: 1200px) {
+/* @media (min-width:700px) and (max-width: 1200px) {
     .content p{
         font-size: 1.5rem;
         display: none;
     }
-}
+} */
 button {
     width: 200px;
     padding: 15px 0;
@@ -145,5 +148,8 @@ footer {
     display: block;
     margin-bottom: 0px;
     padding: 2px;
-    border: 2px solid;
+    /* border: 2px solid; */
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.644);
   }
