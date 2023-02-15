@@ -5,7 +5,8 @@
 
 body {
     margin: 0px;
-    background:url(../IMAGE/back.jpg);
+    background:linear-gradient(rgba(0, 217, 255, 0.411),rgba(18, 17, 8, 0.929)),url(../IMAGE/back.jpg);
+    
     /* linear-gradient(rgba(3, 3, 3, 0.619),rgba(112, 104, 26, 0.75)), */
     background-size: cover;
     background-position: center;
@@ -73,14 +74,14 @@ body {
 .content h1 {
     font-size: 60px;
     margin-top: 80px;
-    color: yellow;
+    color: rgba(255, 255, 0, 0.737);
 }
 
 .content p {
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
-    color: yellow;
+    color: rgba(255, 255, 0, 0.769);
 }
 
 button {
