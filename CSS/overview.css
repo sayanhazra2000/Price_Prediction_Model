@@ -13,6 +13,9 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .navbar a{
     padding: 5px;
@@ -83,7 +86,12 @@ body {
     line-height: 25px;
     color: rgba(255, 255, 0, 0.769);
 }
-
+@media (min-width:700px) and (max-width: 1200px) {
+    .content p{
+        font-size: 1.5rem;
+        display: none;
+    }
+}
 button {
     width: 200px;
     padding: 15px 0;
@@ -98,6 +106,7 @@ button {
     position: relative;
     overflow: hidden;
 }
+
 .btn {
     width: 200px;
     padding: 15px 0;
@@ -132,4 +141,9 @@ button:hover {
     border: none;
     color: white;
 }
-
+footer {
+    display: block;
+    margin-bottom: 0px;
+    padding: 2px;
+    border: 2px solid;
+  }
