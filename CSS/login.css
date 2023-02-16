@@ -66,15 +66,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 100vh;
 }
 
 .form-container {
     background-color: white;
     padding: 40px;
     border-radius: 20px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.409);
-    background: transparent;
+    box-shadow: 0 0 40px #fa5050;
+    background: #0000002c;
     color: antiquewhite;
 }
 
@@ -90,7 +90,7 @@ input[type="password"] {
     margin-bottom: 20px;
     border: none;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.409);
+    box-shadow: 0 0 10px #fa5050;
     font-size: 16px;
     background: transparent;
     color: white;
@@ -113,9 +113,9 @@ button {
     margin: 20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid cyan;
+    border: 2px solid #fa5050;
     background: transparent;
-    color: cyan;
+    color: #fa5050;
     cursor: pointer;
     position: relative;
     overflow: hidden;
@@ -127,15 +127,15 @@ button {
     margin: 20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid cyan;
+    border: 2px solid #fa5050;
     background: transparent;
-    color: cyan;
+    color: #fa5050;
     cursor: pointer;
     position: relative;
     overflow: hidden;
 }
 span {
-    background: cyan;
+    background: #fa5050;
     height: 100%;
     width: 0;
     border-radius: 25px;
