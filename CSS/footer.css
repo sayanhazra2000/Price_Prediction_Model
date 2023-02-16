@@ -1,0 +1,9 @@
+footer {
+    display: block;
+    margin-bottom: -81px;
+    padding: 2px;
+    /* border: 2px solid; */
+    color: white;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
