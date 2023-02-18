@@ -1,10 +1,11 @@
-*{
+* {
     font-family: sans-serif;
     box-sizing: border-box;
 }
+
 body {
     margin: 0px;
-    background: url(../IMAGE/login&signup.jpg);
+    background: url(login&signup.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,9 +15,11 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
-.navbar a{
+
+.navbar a {
     padding: 5px;
 }
+
 .navbar {
     width: 95%;
     margin: auto;
@@ -66,15 +69,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
 }
 
 .form-container {
+    border: 1px solid white;
+    padding: 4rem;
     background-color: white;
     padding: 40px;
     border-radius: 20px;
     box-shadow: 0 0 40px rgba(157, 0, 255, 0.607);
-    background: #0000002c;
+    background: transparent;
+    width: 35%;
+    background: #0000005f;
     color: antiquewhite;
 }
 
@@ -120,6 +127,7 @@ button {
     position: relative;
     overflow: hidden;
 }
+
 .btn {
     width: 200px;
     padding: 15px 0;
@@ -134,6 +142,7 @@ button {
     position: relative;
     overflow: hidden;
 }
+
 span {
     background: rgb(157 0 255 / 75%);
     height: 100%;

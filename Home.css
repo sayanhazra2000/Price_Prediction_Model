@@ -5,7 +5,7 @@
 
 body {
     margin: 0px;
-    background: url(../IMAGE/back.jpg);
+    background: url(back.jpg);
     /* linear-gradient(rgba(3, 3, 3, 0.619),rgba(112, 104, 26, 0.75)), */
     background-size: cover;
     background-position: center;
