@@ -5,7 +5,7 @@
 
 body {
   margin: 0px;
-  background: url(back.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0.279),black),url(back.jpg);
   /* linear-gradient(rgba(3, 3, 3, 0.619),rgba(112, 104, 26, 0.75)), */
   background-size: cover;
   background-position: center;
@@ -89,6 +89,7 @@ html {
   box-shadow: 0 4px 8px 0 rgb(157 0 255 / 75%);
   margin: 7px;
   width: 200;
+  /* color: white ; */
 }
 
 
@@ -103,14 +104,19 @@ html {
 }
 
 .container {
-  padding: 0 16px;
+  padding: 0 7px;
   box-shadow: 0 0 200px rgb(157 0 255 / 75%);
   background: transparent;
   width: 100%;
-  ;
   height: fit-content;
   font-size: 13px;
   padding-top: 0%;
+  color: white;
+ display:inline-block;
+    text-align:center;
+    vertical-align:top;
+    border: 2px solid rgb(157 0 255 / 75%);
+    font-size:16px;
 }
 
 .container::after,
@@ -204,13 +210,13 @@ button:hover {
 
 }
 
-footer {
+/* footer {
   display: block;
   margin-top: 465px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 20px; */
   /* border: 2px solid; */
-  color: white;
+  /* color: white;
   text-align: center;
   background-color: black;
-}
+} */
