@@ -23,7 +23,7 @@ body {
 .navbar {
     width: 95%;
     margin: auto;
-    padding: 35px 25px;
+    padding: 35px 15px;
     display: flex;
     align-items: center;
     font-size: 18px;
@@ -77,9 +77,13 @@ body {
     justify-content: center;
     flex-direction: column; */
     border: 1px solid white;
-    padding: 4rem;
+    /* padding: 4rem; */
+    padding-bottom: 1px;
+    padding-top: 1px;
+    padding-left: 60px;
+    padding-right: 60px;
     background-color: white;
-    padding: 40px;
+    /* padding: 40px; */
     border-radius: 20px;
     box-shadow: 0 0 40px rgba(157, 0, 255, 0.607);
     background: transparent;
@@ -166,4 +170,27 @@ button:hover span {
 button:hover {
     border: none;
     color: white;
+}
+
+.box ul{
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+.box ul li{
+    list-style: none;
+    margin-top: 0%;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.box ul li i{
+    cursor: pointer;
+    margin: 10px;
+    font-size: 40px;
+    color: white;
+}
+
+.box ul li i:hover{
+    opacity: 0.6;
 }
