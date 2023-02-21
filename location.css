@@ -99,7 +99,7 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  color: #0a0a0b;
+  color: #0a0a0bf1;
 }
 
 .cover {
@@ -116,10 +116,17 @@ body {
   -webkit-box-align: center;
   align-items: center;
 }
+/* .cover h1{
+  color: rgb(157 0 255 / 75%);
+}
+
+.cover h1 :hover {
+color: white;
+} */
 
 .flex-form input[type="submit"] {
   background: rgb(157, 0, 255);
-  border: 1px solid rgb(157 0 255 / 75%);
+  border: 3px solid rgb(157 0 255 / 75%);
   color: #fff;
   padding: 0 30px;
   cursor: pointer;
@@ -129,7 +136,8 @@ body {
 }
 
 .flex-form input[type="submit"]:hover {
-  background: rgb(157 0 255 / 75%);
+  background: white;
+  color: rgb(157 0 255 / 75%);
 }
 
 .flex-form {
@@ -160,11 +168,11 @@ input[type="search"] {
 
 h1 {
   font-size: 50px;
-  color: rgba(3, 22, 38, 0.829);
+  color: rgb(157 0 255 / 75%);
 }
 
 #text {
-  color: rgb(4, 9, 20);
+  color: rgb(157 0 255 / 75%);
   font-size: 20px;
 }
 

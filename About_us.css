@@ -5,7 +5,7 @@
 
 body {
   margin: 0px;
-  background: linear-gradient(rgba(255, 255, 255, 0.279),black),url(back.jpg);
+  background: url(back.jpg);
   /* linear-gradient(rgba(3, 3, 3, 0.619),rgba(112, 104, 26, 0.75)), */
   background-size: cover;
   background-position: center;
