@@ -1,0 +1,34 @@
+footer {
+    position: relative;
+    display: block;
+    margin-bottom: -237px;
+    padding: 0%;
+    /* border: 2px solid; */
+    color: white;
+    text-align: center;
+    background-color: rgb(152, 0, 247);
+}
+
+.box ul {
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.box ul li {
+    list-style: none;
+    margin-top: 0%;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.box ul li i {
+    cursor: pointer;
+    margin: 10px;
+    font-size: 40px;
+    color: white;
+}
+
+.box ul li i:hover {
+    opacity: 0.6;
+}
